@@ -108,6 +108,8 @@
 }
 
 .navbar .navbar-brand img {
+    height: auto;
+    width: auto;
     max-height: 60px;
     transition: .5s;
 }
@@ -146,6 +148,11 @@
     .navbar .navbar-brand img {
         max-height: 45px;
     }
+}
+
+#chama-whats-bnt {
+    background: #ffffff;
+    color: var(--primary)
 }
 
 @media (min-width: 992px) {
